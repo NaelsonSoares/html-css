@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="html5 icon.ico" type="image/x-icon">
+    <title>Gradiente em CSS</title>
+    <style>
+        *{/*configurações globais da css*/
+            height: 100%;
+        }
+        body {/*criando gradiente com cores internas*/
+            background-image: linear-gradient(to bottom, blue, white);
+        }
+        h1 {
+            height: 50px; background-image: linear-gradient(to top, red, rgb(170, 4, 4), rgb(241, 184, 184));
+        }
+        h2 {
+            height: 70px; background-image: linear-gradient(to top, #58347E, #CC2865, #F8C500); color: rgb(255, 255, 255);
+        }     
+    </style>
+</head>
+<body>
+    <h1>Testando gradiente</h1>
+    <h2>Aplicando gradiente de cores externas</h2> 
+</body>
+</html>

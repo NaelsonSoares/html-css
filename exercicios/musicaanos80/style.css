@@ -1,0 +1,218 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Bubble';
+    src: url('fontes/BubbleboddyNeue-Bold\ Trial.ttf') format('truetype'); 
+}
+@font-face {
+    font-family: 'Signika';
+    src: url('fontes/signika/SignikaNegative-Regular.ttf');
+}
+:root {
+
+    --cor0: #F2F2F2;
+    --cor1: #CCCCCC;
+    --cor2: #979999;
+    --cor3: #666666;
+    --cor4: #333333;
+    --cor5: #000000;
+    
+    --fonte-padrao: sans-serif;
+    --fonte-titulos: 'Bubble';
+    --fonte-paragrafos: 'Signika';
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: var(--fonte-paragrafos), sans-serif;
+    color: var(--cor5);
+    background-color: var(--cor2);
+    display: flex;
+    flex-direction: column;
+}
+header {   
+    font-family: var(--fonte-padrao);
+    width: calc(100% - 250px);
+    height: 250px;
+    margin: auto;
+    margin-right: 0px;
+    position: relative;
+    background: url('imagens/k7anos80.jpg');
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.5);
+    display: block;
+}
+header h1 {         
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    font-size: 5em;
+    color: var(--cor5);
+    text-shadow: 0px 0px 15px var(--cor1);     
+}
+header p {
+    font-size: 2.3em;
+    text-align: center;
+    font-weight: bold;
+    color: var(--cor5);
+}
+nav {
+    background-color: var(--cor0);
+    width: 250px;
+    height: 100%;
+    margin: auto;    
+    transition: .3s;
+    position: relative;
+    overflow-x: hidden;
+    position: fixed;    
+}
+main {
+    float: right;
+    width: calc(100% - 250px);
+    transition: .3s;
+    margin: auto;
+    margin-right: 0px;
+    margin-top: 0px;
+}
+.redessociais {
+    background-color: var(--cor2);
+    padding: 10px;
+    text-align: center;
+}
+.menu {        
+    margin-top: 10px;
+    list-style: none;
+}
+.menu a {
+    color: var(--cor5);
+    text-decoration: none;
+    padding: 5px;
+}
+.menu a:hover {
+    background-color: var(--cor1);
+    color: blue;    
+}
+nav .menu ul {
+    position: absolute;
+    visibility: hidden;
+}
+nav ul li:hover ul { 
+    background-color: var(--cor1);
+    color: blue;
+    position: relative;
+    visibility: visible; 
+    border-radius: 5px;   
+}
+.menu ul{
+    list-style: none; 
+    padding: 1px;   
+}
+.menu li{
+    list-style: none; 
+    padding: 5px;   
+}
+label[for="bt_menu"]{
+     width: 30px;
+     height: 30px;
+     position: absolute;
+     font-size: 30px;
+     cursor: pointer;
+ }
+ #bt_menu {
+     display: none;
+ }
+ label[for="bt_menu"]{
+     display: none;
+     margin-left: 0;
+ }
+@media (max-width: 576px){
+    header {
+        width: 100%;
+    }
+    header h1{
+        font-size: 4em;
+    }
+    header p {
+        font-size: 2.2em;
+    }
+    nav {
+        width: 0px;
+        margin-top: 50px;
+    }
+    main {
+        width: 100%;
+    }    
+    label[for="bt_menu"]{
+        width: 0;
+        display: block;
+        position: fixed;
+    }
+    #bt_menu:checked ~ nav {
+        width: 250Px;
+    }
+}
+article {
+    font-family: var(--fonte-paragrafos);
+    font-size: 1.2em;
+    text-align: justify;
+    padding: 10px;
+    margin: auto;
+}
+h2 {
+    font-family: var(--fonte-padrao);
+    font-size: 2em;
+    margin-left: 40px;
+}
+p {
+    padding: 5px;
+    text-indent: 25px;
+    margin: 0px 10px 0px 10px;
+}
+img {
+    width: 100%;
+}
+.roupanova {
+    max-width: 300px;
+    display: block;
+    margin: auto;
+}
+aside {
+    background-color: var(--cor1);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 0px 15px 0px 15px;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.342);
+}
+aside h2 {
+    font-family: var(--fonte-paragrafos);
+}
+aside ul {
+    list-style: none;
+}
+.paulo {
+    text-align: right;
+    padding-top: 10px;
+}
+h3 {
+    font-family: var(--fonte-paragrafos);
+}
+.link {
+    padding: 15px;
+}
+.link a {
+    text-decoration: none;
+    font-family: var(--fonte-padrao);
+    color: var(--cor5);
+    padding: 20px;    
+}
+.rodape {
+    flex-shrink: 0px;
+    background-color: var(--cor5);
+    font-family: var(--fonte-paragrafos);
+    color: var(--cor0);
+    text-align: center;
+}
+
