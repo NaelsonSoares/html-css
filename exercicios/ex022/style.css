@@ -64,15 +64,22 @@ body {
 }
 .pagina5 {
     height: 97vh;
-    border-color: black;
+    /*border-color: black;
     background-image: url(imagens/wallpaper002.jpg);
-    background-position: center top;
+    background-position: center center;
     background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;*/
+
+    /* shorthand - background
+    color imgem position repeat (size - ainda separadamente) attachment
+    */
+    background: black url(imagens/wallpaper002.jpg) center center no-repeat fixed;
     background-size: cover;
 }
 main {
     background-color: white;   
-    width: 400px;
+    max-width: 580px;
     margin: auto;
     border:  2px solid rgba(0, 0, 255, 0.644);
     border-radius: 10px;
