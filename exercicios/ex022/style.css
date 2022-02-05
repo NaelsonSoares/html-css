@@ -96,6 +96,28 @@ p {
     padding: 20px;
     text-align: justify;
 }
+.conteiner {
+    /*position: relative; - todo box já tem esse position no html */
+    height: 94vh;
+    padding: 10px;
+    background-image: url(imagens/target001.png);
+    background-size: 100% 100%;
+    background-color: deeppink;
+   
+}
+.conteudo {
+    position: absolute; /* quando a position for absolute poderar utilizar o left e top para mover o box*/ 
+    height: 200px;
+    width: 300px;
+    background-image: url(imagens/target001.png);
+    background-size: 100% 100%;
+    background-color: gold;
+    /* para alinhar o box utiliza a porcetagem*/
+    left: 50%;
+    top: 50%;
+    /* para terminar de alinha o box usamos também em porcentagem o transform: translate também em porcentagem*/
+    transform: translate(-50%, -50%);
+}
     
 
 
