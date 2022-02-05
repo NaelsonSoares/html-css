@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-body {
+.pagina1 {
     background-image: url(imagens/wallpaper001.jpg);
 }
 .quadrado {
@@ -21,6 +21,7 @@ body {
     background-image: url(imagens/pattern003.png);
 }
 .pagina2 {
+    background-color: white;
     background-image: url(imagens/wallpaper001.jpg);
     background-size: 100px 100px;
     /*sem repetição*/
@@ -36,6 +37,8 @@ body {
     border: 1px solid black;
     border-radius: 20px;
     margin: 10px;
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 #b1 {
     background-position: left top;
@@ -49,4 +52,43 @@ body {
 #b4 {
     background-position: center center;
 }
+body {
+    background-color: black;
+   
+}
+.pagina4 {    
+    height: 97vh;
+    background-image: url(imagens/wallpaper003.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.pagina5 {
+    height: 97vh;
+    border-color: black;
+    background-image: url(imagens/wallpaper002.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main {
+    background-color: white;   
+    width: 400px;
+    margin: auto;
+    border:  2px solid rgba(0, 0, 255, 0.644);
+    border-radius: 10px;
+}
+h1 {
+    font-family: sans-serif;
+    font-variant: small-caps;
+    font-size: 25px;
+    text-align: center;
+}
+p {
+    text-indent: 20px;
+    font-family: sans-serif;
+    padding: 20px;
+    text-align: justify;
+}
+    
+
 
