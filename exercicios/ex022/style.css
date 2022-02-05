@@ -20,3 +20,33 @@ body {
 #q3 {
     background-image: url(imagens/pattern003.png);
 }
+.pagina2 {
+    background-image: url(imagens/wallpaper001.jpg);
+    background-size: 100px 100px;
+    /*sem repetição*/
+    background-repeat: no-repeat;
+    /*com repetição horizontal*/
+    background-repeat: repeat-x;
+    /*com repetição vertical*/
+    background-repeat: repeat-y;
+}
+.bloco {
+    background-image: url(imagens/wallpaper003.jpg);
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 10px;
+}
+#b1 {
+    background-position: left top;
+}
+#b2 {
+    background-position: left center;
+}
+#b3 {
+    background-position: right bottom;
+}
+#b4 {
+    background-position: center center;
+}
+
