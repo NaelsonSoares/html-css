@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+body {
+    font-family: sans-serif;
+}
+table {
+    width: 400px;   
+    border-collapse: collapse; /* o valor padrão é separate, ou seja dispensa o codigo */
+}
+.linha1 {
+    background-color: aqua;
+}
+.linha2 { 
+    background-color: chartreuse;
+}
+.linha3 {
+    background-color: crimson;
+}
+.dados {
+    background-color: darkblue;
+    color: white;
+}
+td {
+    border: 1px solid black;
+    padding: 10px;
+}
