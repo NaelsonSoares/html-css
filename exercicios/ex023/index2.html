@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tabelast</title>
+</head>
+<body>
+    <!-- Anatomia para tabelas grandes
+    uma Table tem thead(cabeça), tbody(corpo) e tfoot(pé) que também recebem as mesmas propriedades da tabela simples: <tr>, <th> e <td>. Já a tag caption(legenda) não utiliza esses valores. 
+       - scope(escopo da tabela) um <th> é o scope da tabela que pode ser da coluna scope="(col ou colgroup" e de linha sope="(row ou rowgroup" -->
+        <h1>
+            Uso de tabelas Grandes
+        </h1>
+        <table class="grande">
+            <caption>População das Unidades Federativas</caption>
+            <thead class="cabeça">                
+                    <tr>
+                        <th scope="col">Posição</th>
+                        <th scope="col">unidade federativa</th>
+                        <th scope="col" style="width: 30px;">população(2021)</th>
+                    </tr>                
+            </thead>
+            <tbody>
+                <tr>
+                <td>1</td>
+                <td class="estado">São Paulo</td>
+                <td class="num">46 646 132</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td class="estado">Minas Gerais</td>
+                    <td class="num">21 411 923</td>
+                </tr>
+                <tr  class="rio">
+                    <td>3</td>
+                    <td class="estado">Rio de Janeiro</td>
+                    <td class="num">17 463 349</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td class="estado">Bahia</td>
+                    <td class="num">14 985 284</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td class="estado">Paraná</td>
+                    <td class="num">11 597 484</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td class="estado">Rio Grande do Sul</td>
+                    <td class="num">11 466 630</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td class="estado">Pernnambuco</td>
+                    <td class="num">9 674 793</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td class="estado">Ceará</td>
+                    <td class="num">9 240 580</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td class="estado">Pará</td>
+                    <td class="num">8 777 124</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td class="estado">Santa Catarina</td>
+                    <td class="num">7 338 473</td>
+                </tr>
+                <tr   class="rio">
+                    <td>15</td>
+                    <td class="estado">Paraíba</td>
+                    <td class="num">4 059 905</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td> </td>
+                    <th scope="row">Total de Habitantes</th>
+                    <td class="num"><strong>162 661 677</strong></td>
+                </tr>
+            </tfoot>
+        </table>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil perferendis placeat, blanditiis consequatur harum eveniet? Et, asperiores ex. Tempora dolorum libero aperiam molestias animi eveniet impedit sint, quisquam perspiciatis non! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque impedit doloremque cum, nobis rerum amet quisquam architecto facere repellendus iure esse optio minus sed ipsum itaque quaerat modi vero illum. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque temporibus, ipsam vitae accusamus accusantium dolor officiis magnam non fugiat voluptatibus natus cumque nisi facilis eaque repellendus mollitia! Provident, id iure.</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil perferendis placeat, blanditiis consequatur harum eveniet? Et, asperiores ex. Tempora dolorum libero aperiam molestias animi eveniet impedit sint, quisquam perspiciatis non! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque impedit doloremque cum, nobis rerum amet quisquam architecto facere repellendus iure esse optio minus sed ipsum itaque quaerat modi vero illum. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque temporibus, ipsam vitae accusamus accusantium dolor officiis magnam non fugiat voluptatibus natus cumque nisi facilis eaque repellendus mollitia! Provident, id iure.</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil perferendis placeat, blanditiis consequatur harum eveniet? Et, asperiores ex. Tempora dolorum libero aperiam molestias animi eveniet impedit sint, quisquam perspiciatis non! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque impedit doloremque cum, nobis rerum amet quisquam architecto facere repellendus iure esse optio minus sed ipsum itaque quaerat modi vero illum. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque temporibus, ipsam vitae accusamus accusantium dolor officiis magnam non fugiat voluptatibus natus cumque nisi facilis eaque repellendus mollitia! Provident, id iure.</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil perferendis placeat, blanditiis consequatur harum eveniet? Et, asperiores ex. Tempora dolorum libero aperiam molestias animi eveniet impedit sint, quisquam perspiciatis non! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque impedit doloremque cum, nobis rerum amet quisquam architecto facere repellendus iure esse optio minus sed ipsum itaque quaerat modi vero illum. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque temporibus, ipsam vitae accusamus accusantium dolor officiis magnam non fugiat voluptatibus natus cumque nisi facilis eaque repellendus mollitia! Provident, id iure.</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil perferendis placeat, blanditiis consequatur harum eveniet? Et, asperiores ex. Tempora dolorum libero aperiam molestias animi eveniet impedit sint, quisquam perspiciatis non! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque impedit doloremque cum, nobis rerum amet quisquam architecto facere repellendus iure esse optio minus sed ipsum itaque quaerat modi vero illum. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque temporibus, ipsam vitae accusamus accusantium dolor officiis magnam non fugiat voluptatibus natus cumque nisi facilis eaque repellendus mollitia! Provident, id iure.</p>
+</body>
+</html>

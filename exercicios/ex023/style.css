@@ -1,12 +1,28 @@
 @charset "UTF-8";
 
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* Para colocar o cabeçalho fixo e necessario seguir esses passos:
+    table - position: relativo
+    thead > tr > th - position: sticky
+                      top: -1px
+                      background-color: repetir a cor do cabeçalho*/
 body {
     font-family: sans-serif;
 }
 table {
     width: 400px;
-    height: 400px;   
+    height: 400px; 
+    position: relative;  
     border-collapse: collapse; /* o valor padrão é separate, ou seja dispensa o codigo */
+}
+.cabeça > tr > th {
+    position: sticky;
+    top: -1px;
+    background-color: darkgrey;
+
 }
 .linha1 {
     background-color: aqua;
@@ -27,7 +43,44 @@ td {
     text-align: center;/*text-align com left, cnter, right formam o alinhamento horizontal*/
     vertical-align: middle;/*vertical-align com top, bottom e middle formam o vertical*/
 }
-.numero {/*alinhamento individual das celulas*/
+.numero {/*alinhamento individual das! celulas*/
     text-align: right;
     vertical-align: bottom;
+}
+.grande {
+    width: 400px;
+    height: 500px;
+}
+caption {
+    font-size: 1.2em;
+    font-weight: bold;
+    background-color: rgb(231, 227, 227);
+    padding: 5px;
+}
+.cabeça {
+    background-color: darkgrey;
+    height: 50px;
+}
+.rio {
+    background-color: red;
+    color: white;
+    vertical-align: bottom;
+}
+.estado {
+    text-align: left;
+}
+.num {
+    text-align: right;
+}
+.habitantes {
+    text-align: left;
+    width: 200px;
+}
+tbody > tr:nth-child(2n) {/* 'n' é para linhas; 'odd' e 'even' para pares e impares*/ 
+    background-color: lightgray;
+}
+tfoot {
+    background-color: black;
+    color: white;
+    text-align: left;
 }
