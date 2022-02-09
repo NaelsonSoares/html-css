@@ -47,7 +47,7 @@ td {
     text-align: right;
     vertical-align: bottom;
 }
-.grande {
+.tabela2 {
     width: 400px;
     height: 500px;
 }
@@ -57,7 +57,7 @@ caption {
     background-color: rgb(231, 227, 227);
     padding: 5px;
 }
-.cabeça {
+.tabela2 {
     background-color: darkgrey;
     height: 50px;
 }
@@ -76,11 +76,22 @@ caption {
     text-align: left;
     width: 200px;
 }
-tbody > tr:nth-child(2n) {/* 'n' é para linhas; 'odd' e 'even' para pares e impares*/ 
+tbody > tr:nth-child(2n) {/* efeito zebrado'n' é para linhas; 'odd' e 'even' para pares e impares*/ 
     background-color: lightgray;
 }
 tfoot {
     background-color: black;
     color: white;
     text-align: left;
+}
+P {
+    text-align: justify;
+    text-indent: 20PX;
+    padding: 10PX;
+    margin: 30PX;
+}
+.tabela3 {
+    width: 400px;
+    height: 200px;  
+    border-collapse: collapse;
 }
