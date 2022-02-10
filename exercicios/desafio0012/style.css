@@ -19,3 +19,8 @@ td {
     background-color: gold;
     font-weight: bold;
 }
+caption {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px;
+}
