@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+body {
+    font-family: sans-serif;
+}
+caption {
+    font-size: 1.5em;
+    padding: 5px;
+}
+table {
+    width: 600px;
+    height: 400px;
+    padding: 3px;
+    border-collapse: collapse;
+}
+th, td {
+    border: 2px solid black;
+}
+.linha {
+    background-color: rgb(240, 125, 71);
+}
+.nome {
+    background-color: rgb(235, 238, 52);
+}
+.csexo {
+    background-color: rgb(150, 78, 44);;
+}
+.cgrup {
+    background-color: rgba(85, 34, 11, 0.568);
+}
