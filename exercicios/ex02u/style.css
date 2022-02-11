@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: sans-serif;
+    width: 80%;
+    margin: auto;
+    background: url(imagens/bg.jpg) center center no-repeat fixed;
+    background-size: cover;
+    background-position: right bottom;
+}
+h1 {
+    font-size: 3em;
+    text-align: center;
+    padding-top: 20px;
+}
+p {
+    text-indent: 20px;
+    text-align: justify;
+    line-height: 25px;
+    padding-top: 10px;
+}
+h2 {
+    font-size: 2em;
+    text-align: center;
+    padding: 20px;
+}
+img {
+    padding: 20px;
+}
+.html {
+    float: left;
+}
+.css {
+    float: right;
+}    
