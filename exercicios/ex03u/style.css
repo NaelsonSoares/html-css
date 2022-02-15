@@ -133,8 +133,7 @@ footer {
         margin: 10px 15px 0 0;
     }
     .card p {
-        font-size: .8em;
-        padding: 10px;
-}
+        font-size: 1em;
+        padding: 0px;
     }
 }
