@@ -110,7 +110,7 @@ footer {
     height: 50px;
     line-height: 50px;
 }
-@media (max-width: 700px){
+@media (max-width: 720px){
     header {
         width: 100%;
         background-position: center center;
@@ -126,7 +126,7 @@ footer {
         width: 100%;
     }
     ul {
-        text-align: left;
+        text-align: center;
     }
     nav li {
         padding: 5px;        
