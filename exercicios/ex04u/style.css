@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+
+body {
+    font-family: Tahoma, Arial, sans-serif;
+    background: rgb(233, 245, 245);
+    margin: 0;
+    padding: 0;
+}
+#principal {
+    width: 1024px;
+    margin: 20px auto;
+}
+.header-top {
+    height: 50px;
+    background: #162028;
+    position: relative;
+}
+.logo {
+    margin-left: 150px;
+}
+.header-nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: white;
+}
+
