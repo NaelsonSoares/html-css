@@ -22,7 +22,25 @@ body {
 .header-nav {
     position: absolute;
     top: 0;
-    right: 0;
-    background: white;
+    right: 0; 
+    background-color: #162028;  
 }
-
+ul {
+    text-align: right;
+}
+.header-nav li {
+    display: inline-block;
+    letter-spacing: 5px;
+    margin-right: 15px;
+    transition: color 0.3s;
+}
+a {
+    text-decoration: none;
+    color: rgba(160, 160, 206, 0.349);
+}
+a:hover {
+    color: rgba(121, 121, 247, 0.349); 
+}
+.header-nav:hover {
+    background-color: rgb(32, 51, 104);
+}
