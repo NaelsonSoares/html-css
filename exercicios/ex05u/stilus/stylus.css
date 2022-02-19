@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+li ul {
+    height: 0;
+    overflow: hidden;
+    transition: height .5s;
+}
+li:hover {
+    background-color: blue;
+    color: white;
+}
+li:hover ul {
+    height: 45px;
+    overflow: visible;
+}
