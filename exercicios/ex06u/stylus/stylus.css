@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+div {
+    padding: 3%;
+    margin: 60px 2%;
+    border: 1px solid black;
+    width: 20%;
+    float: left;
+    height: 120px;
+    font-family: sans-serif;
+    font-size: 1.3em;
+}
+h1 {
+    font-size: 1em;
+}
+.div1 {
+    overflow: visible;
+}
+.div2 {
+    overflow: hidden;
+}
+.div3 {
+    overflow: scroll;
+}
+.div4 {
+    overflow: auto;
+}
