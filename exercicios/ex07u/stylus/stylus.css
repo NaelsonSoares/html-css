@@ -1,0 +1,31 @@
+@charset "UTF-08";
+
+
+body {
+    font-family: sans-serif;
+    padding: 30px;
+    margin: auto;
+}
+table {
+    border-collapse: collapse;
+    width: 50%;
+    margin: auto;
+}
+caption {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+td {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+}
+th {
+    border: 1px solid black;
+    background: darkcyan;
+    padding: 10px;
+}
+tfoot {
+    color: red;
+    font-weight: bold;
+}
