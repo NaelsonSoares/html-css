@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+h1 {
+    text-align: center;
+}
+legend {
+    font-size: 18px;
+}
+.inicioform {
+    width: 350px;
+    margin: 50px auto 0;
+    font-family: sans-serif;
+}
+.inicioform fieldset{
+    background: #ccc;
+}
+.inicioform label {
+    margin-top: 15px;
+    display: block;
+    margin-bottom: 5px;
+}
+#user, #pass, .log {
+    font-size: 18px;
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 15px;
+    border: none;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.411);  
+}
+#user, #pass {
+    
+}
+#user:focus, #pass:focus {
+    background: rgb(175, 201, 201);
+}
+.log {
+    margin-top: 15px;
+}
