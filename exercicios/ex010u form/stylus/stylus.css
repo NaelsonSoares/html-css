@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+form {
+    width: 400px;
+    margin: auto;
+}
+fieldset label, .enviar{
+    font-family: sans-serif;
+    padding-top: 15px;
+    display: block;
+    width: 100%;
+}
+.dados {
+    width: 100%;
+}
+.enviar {
+    margin-top: 15px;
+    padding: 5px;
+    width: 80px;
+}
+p {
+    font-family: sans-serif;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.sexo {
+    display: inline;
+    padding-top: 0px;
+}

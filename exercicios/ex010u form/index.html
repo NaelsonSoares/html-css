@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylus/stylus.css">
+    <title>Tipos de input</title>
+</head>
+<body>
+    <form action="#" method="get">
+
+        <fieldset>
+
+            <legend>Dados Pessoais</legend>
+            <label for="email">Email</label>
+            <input type="email" name="" id="email" class="dados">
+
+            <label for="numero">Números de Filhos</label>
+            <input type="number" name="numero" id="numero" min="0" class="dados">
+
+            <label for="date">Data de Nascimento</label>
+            <input type="date" name="nascimento" id="date">
+
+            <p>Sexo</p>
+            <label class="sexo">
+                <input type="radio" name="sex" value="m" id="sex">Masculino
+            </label>
+            <label class="sexo">
+                <input type="radio" name="sex" value="f" id="sex">Feminino
+            </label>
+            <label for="local">Estado</label>
+            
+
+            <input type="submit" value="Enviar" class="enviar">
+        </fieldset>
+</form>
+</body>
+</html>
