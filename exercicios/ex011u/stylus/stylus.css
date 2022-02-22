@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+div {
+    background-color: darkgreen;
+    width: 100px;
+    height: 100px;
+}
+div:hover {
+    width: 400px;
+    height: 400px;
+
+    transition-property: width, height;
+    transition-duration: 1s, 3s;
+    transition-timing-function: cubic-bezier(0.67, -0.38, 0.5, 1.5);
+    transition-delay: 0s, .8s;
+}
