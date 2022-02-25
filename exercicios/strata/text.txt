@@ -1,23 +1,4 @@
 
-
-Get in Touch
-Accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque lorem ipsum dolor.
-
-Nome 
-nome completo
-Email 
-Digite sua mensagem 
- 
-Endereço: 1234 Somewhere Rd. Nashville, TN 00000 United States
-
-Telefone: 000-000-000
-
-E-mail: email@server.com
-
-Elements
-Text
-This is bold and this is strong. This is italic and this is emphasized. This is superscript text and this is subscript text. This is underlined and this is code: for (;;) { ... }. Finally, this is a link.
-
 titulo h1
 titulo h2
 titulo h3
