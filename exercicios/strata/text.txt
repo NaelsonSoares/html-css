@@ -11,48 +11,19 @@ outros paragráfos
 
 According to Mozilla's website, Firefox 1.0 was released in 2004 and became a big success.
 
-Preformatado
 
-    <script>
-        alert('oi');
-    </script>
-                
-Listas
-Não ordenada
-item 1
-item 2
-item 3
-Ordenada
-item 1
-item 2
-item 3
-Alternate
-item 1
-item 2
-item 3
-icons
- 
-Actions
-Default Default
 
-Default Default
 
-Default
-Default
-Default
-Default
-Table
-Default
-Name	Description	Price
+
 s
-Item One	Ante turpis integer aliquet porttitor.	29.99
-Item Two	Vis ac commodo adipiscing arcu aliquet.	19.99
-Item Three	Morbi faucibus arcu accumsan lorem.	29.99
-Item Four	Vitae integer tempus condimentum.	19.99
-Item Five	Ante turpis integer aliquet porttitor.	29.99
-Alternate
+
+
+
+
+
+
 Name	Description	Price
-100.00
+
 Item One	Ante turpis integer aliquet porttitor.	29.99
 Item Two	Vis ac commodo adipiscing arcu aliquet.	19.99
 Item Three	Morbi faucibus arcu accumsan lorem.	29.99
@@ -78,7 +49,6 @@ digite uma mensagem
 Imagens
 
 
-Left & Right
- Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.
 
-Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.
+ 
+

@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylus/normalize.css">
     <link rel="stylesheet" href="stylus/stylus.css">
     <script src="https://kit.fontawesome.com/eb9912d2cb.js" crossorigin="anonymous"></script>
     <title>Projeto Strata</title>
@@ -181,7 +182,194 @@ mantidos no texto da mesma forma em que este foi digitado.
                 <li><i class="fab fa-github"></i></li>
                 <li><i class="fab fa-tumblr"></i></li>
             </ul>
-        </section>            
+            <h5>
+                Actions
+            </h5>
+            <p>
+                <a href="#" class="button-default">Default</a>
+                <a href="#" class="button-default button-default-stroke">Default</a>
+            </p>
+            <p>
+                <a href="#" class="button-default button-default-small">Default</a>
+                <a href="#" class="button-default button-default-small button-default-stroke">Default</a>
+            </p>
+            <p>
+                <a href="#" class="button-default button-default-full">Default</a>
+                <a href="#" class="button-default button-default-full button-default-stroke">Default</a>
+            </p>
+            <p>
+                <a href="#" class="button-default button-default-full button-default-small">Default</a>
+                <a href="#" class="button-default button-default-full button-default-small button-default-stroke">Default</a>
+            </p>
+            <table class="table">
+                <h4>
+                    Table 
+                </h4>
+                <h5>
+                    Default
+                </h5>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Description</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Item One</td>
+                        <td>Ante turpis integer aliquet porttitor.</td>
+                        <td>29.99</td>
+                    </tr>
+                    <tr>
+                        <td>Item Two</td>
+                        <td>Vis ac commodo adipiscing arcu aliquet.</td>
+                        <td>19.99</td>
+                    </tr>
+                    <tr>
+                        <td>Item Three</td>
+                        <td>Morbi faucibus arcu accumsan lorem.</td>
+                        <td>29.99</td>
+                    </tr>
+                    <tr>
+                        <td>Item Four</td>
+                        <td>Vitae integer tempus condimentum.</td>
+                        <td>19.99</td>
+                    </tr>
+                    <tr>
+                        <td>Item Five</td>
+                        <td>Ante turpis integer aliquet porttitor.</td>
+                        <td>29.99</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td  colspan="2"></td>
+                        <td>100.00</td>
+                    </tr>
+                </tfoot>
+            </table>
+            <table class="table-alternate">
+                <h5>
+                    Alternate
+                </h5>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Description</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Item One</td>
+                        <td>Ante turpis integer aliquet porttitor.</td>
+                        <td>29.99</td>
+                    </tr>
+                    <tr>
+                        <td>Item Two</td>
+                        <td>Vis ac commodo adipiscing arcu aliquet.</td>
+                        <td>19.99</td>
+                    </tr>
+                    <tr>
+                        <td>Item Three</td>
+                        <td>Morbi faucibus arcu accumsan lorem.</td>
+                        <td>29.99</td>
+                    </tr>
+                    <tr>
+                        <td>Item Four</td>
+                        <td>Vitae integer tempus condimentum.</td>
+                        <td>19.99</td>
+                    </tr>
+                    <tr>
+                        <td>Item Five</td>
+                        <td>Ante turpis integer aliquet porttitor.</td>
+                        <td>29.99</td>
+                    </tr>
+                </tbody>
+            </table>
+            <h5>
+                Buttons
+            </h5>
+            <p>
+                <button class="button-default">Default</button>
+                <button class="button-default button-default-stroke">Default</button>
+            </p>
+            <p>
+                <button class="button-default button-default-small">Default</button>
+                <button class="button-default button-default-small button-default-stroke">Default</button>
+            </p>
+            <p>
+                <button class="button-default button-default-full">Default</button>
+                <button class="button-default button-default-full button-default-stroke">Default</button>
+            </p>
+            <p>
+                <button class="button-default button-default-full button-default-small">Default</button>
+                <button class="button-default button-default-full button-default-small button-default-stroke">Default</button>
+            </p>
+            <input type="submit" class="button-default" value="enviar">
+            <h5>
+                Forms
+            </h5>
+            <form action="" method="post">
+                <label for="name">Nome</label>
+                <input type="text" name="name" id="name">
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email">
+                <select name="selecao" id="selecao">
+                    <option value="0">Selecione</option>
+                    <option value="1">HTML</option>
+                    <option value="1">CSS</option>
+                    <option value="1">JAVASCRIPT</option>
+                    <option value="1">PHP</option>
+                </select>
+                <label for="prioridades">
+                    <input type="radio" value="baixa" name="prioredades" id="baixa">Baixa prioridade
+                </label>
+                <label for="prioridades">
+                    <input type="radio" value="media" name="prioredades" id="media">Média prioridade
+                </label>
+                <label for="prioridades">
+                    <input type="radio" value="alta" name="prioredades" id="alta">Alta prioridade
+                </label>
+                <label for="check">
+                    <input type="checkbox" name="copy" id="check">envia-me uma cópia
+                </label>
+                <label for="check">
+                    <input type="checkbox" name="human" id="check">Sou humano
+                </label><label for="msg">Menssagem                    
+                    <textarea placeholder="digite uma menssagem" name="msg" id="msg"></textarea>
+                </textarea>
+                </label>
+                <input type="submit" class="button-default" value="enviar">
+                <input type="reset" class="button-default-stroke" value="Reset">
+            </form>
+        </section>
+        <section class="main-section">
+            <h3>
+                Imagens
+            </h3>
+            <div class="gallery-img">
+                <img src="images/fulls/01.jpg" alt="imagem">
+            </div>
+            <div class="gallery-thumb">
+                <img src="images/thumbs/01.jpg" alt="imagem">
+                <img src="images/thumbs/02.jpg" alt="imagem">
+                <img src="images/thumbs/03.jpg" alt="imagem">
+                <img src="images/thumbs/04.jpg" alt="imagem">
+                <img src="images/thumbs/05.jpg" alt="imagem">
+                <img src="images/thumbs/06.jpg" alt="imagem">
+            </div>
+            <h4>
+                Left &amp; Right
+            </h4>
+            <p>
+                <img src="images/avatar.jpg" alt="homem" class="img-left"> Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.
+            </p>
+            <p>
+                <img src="images/avatar.jpg" alt="homem" class="img-right"> Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.  
+            </p>
+        </section>          
     </main>
 </body>
 </html>
