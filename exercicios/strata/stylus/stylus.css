@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(104, 104, 104);
+    line-height: 1.7;
+}
+.header-principal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 38%;
+    box-sizing: border-box;
+}
+.main-content {
+    width: 62%;
+    margin-left: 38%;
+    padding: 100px 50px 70px;
+    box-sizing: border-box;
+}
