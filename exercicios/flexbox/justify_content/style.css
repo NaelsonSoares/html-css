@@ -1,0 +1,159 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    padding-top: 20px;
+}
+h1{
+    font-family: sans-serif;
+    font-size: 25px;
+    padding-top: 10px;
+    margin-left: 50px;
+}
+
+p{
+    font-family: sans-serif;
+    font-size: 15px;
+    padding-top: 10px;
+    margin-left: 50px;
+    
+}
+
+.blue{
+    background-color: rgb(4, 184, 216);
+}
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+.yellow{
+    background-color: yellow;
+}
+.orangen{
+    background-color: orange;
+}
+
+.flex-item{
+    font-size: 10px;
+    height: 50px;
+    text-align: center;
+    width: 50px;
+    line-height: 40px;
+}
+    /* Alinhamento horizontal (row)*/
+    /* justify-content: flex-start -  mantem o padrão*/
+.containerflexstart{
+    border: 2px solid black;
+    display: flex;
+    height: 100%;
+    width: 400px;
+    margin-left: 20px;
+    justify-content: flex-start;
+}
+    /* justify-content: flex-end - alinhamento a direita*/
+.containerflexend{
+    border: 2px solid black;
+    display: flex;
+    height: 100%;
+    width: 400px;
+    margin-left: 20px;
+    justify-content: flex-end;
+}
+    /* justify-content: center - alinhamento ao centro*/
+.containercenter{
+    border: 2px solid black;
+    display: flex;
+    height: 100%;
+    width: 400px;
+    margin-left: 20px;
+    justify-content: center;
+}
+    /* justify-content: space-between - dividi os espaço igual*/
+.containerspacebetween{
+    border: 2px solid black;
+    display: flex;
+    height: 100%;
+    width: 400px;
+    margin-left: 20px;
+    justify-content: space-between;
+}
+    /* justify-content: space-around - coloca uma margem no início e no final*/
+
+.containerspacearound{
+    border: 2px solid black;
+    display: flex;
+    height: 100%;
+    width: 400px;
+    margin-left: 20px;
+    justify-content: space-around;
+}
+
+/* Alinhamento vertical (column)*/
+    /* justify-content: flex-start -  mantem o padrão*/
+
+    .item{
+        font-size: 10px;
+        text-align: center;
+        line-height: 40px;
+    }
+    .containerflexstartcolumn{
+        border: 2px solid black;
+        display: flex;
+        margin: 0;
+        height: 300px;
+        width: 400px;
+        margin-left: 20px;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+        /* justify-content: flex-end - alinhamento a direita*/
+    .containerflexendcolumn{
+        border: 2px solid black;
+        display: flex;
+        margin: 0;
+        height: 300px;
+        width: 400px;
+        margin-left: 20px;
+        justify-content: flex-end;
+        flex-direction: column;
+    }
+        /* justify-content: center - alinhamento ao centro*/
+    .containercentercolumn{
+        border: 2px solid black;
+        display: flex;
+        margin: 0;
+        height: 300px;
+        width: 400px;
+        margin-left: 20px;
+        justify-content: center;
+        flex-direction: column;
+    }
+        /* justify-content: space-between - dividi os espaço igual*/
+    .containerspacebetweencolumn{
+        border: 2px solid black;
+        display: flex;
+        margin: 0;
+        height: 300px;
+        width: 400px;
+        margin-left: 20px;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+        /* justify-content: space-around - coloca uma margem no início e no final*/
+    .containerspacearoundcolumn{
+        border: 2px solid black;
+        display: flex;
+        margin: 0;
+        height: 300px;
+        width: 400px;
+        margin-left: 20px;
+        justify-content: space-around;
+        flex-direction: column;
+        margin-bottom: 10px;
+    }

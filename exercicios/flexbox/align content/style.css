@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    padding-top: 20px;
+}
+h1{
+    text-align: center;
+}
+p{
+    font-family: sans-serif;
+    font-size: 20px;
+    padding-top: 10px;
+    text-align: center;
+}
+.blue{
+    background-color: rgb(4, 184, 216);
+}
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+.yellow{
+    background-color: yellow;
+}
+.orangen{
+    background-color: orange;
+}
+.flex-item{
+    text-align: center;
+    flex: 1; /* ajustam os itens*/
+    padding: 0 5px;
+    margin: 5px;
+}
+
+/* alinhamneto row*/
+.containerstretch{
+    border: 2px solid black;
+    display: flex;
+    max-width: 300px;
+    margin-left: 20px;
+    margin: 0 auto;
+    height: 350px;
+    flex-wrap: wrap;
+    align-content: stretch;
+}
+
+.containercenter{
+    border: 2px solid black;
+    display: flex;
+    max-width: 300px;
+    margin-left: 20px;
+    margin: 0 auto;
+    height: 400px;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.containerflexstart{
+    border: 2px solid black;
+    display: flex;
+    max-width: 300px;
+    margin-left: 20px;
+    margin: 0 auto;
+    height: 400px;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.containerflexend{
+    border: 2px solid black;
+    display: flex;
+    max-width: 300px;
+    margin-left: 20px;
+    margin: 0 auto;
+    height: 400px;
+    flex-wrap: wrap;
+    align-content: flex-end;
+}
+
+.containerspacebetween{
+    border: 2px solid black;
+    display: flex;
+    max-width: 300px;
+    margin-left: 20px;
+    margin: 0 auto;
+    height: 400px;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.containerspacearound{
+    border: 2px solid black;
+    display: flex;
+    max-width: 300px;
+    margin-left: 20px;
+    margin: 0 auto;
+    height: 400px;
+    flex-wrap: wrap;
+    align-content: space-around;
+}

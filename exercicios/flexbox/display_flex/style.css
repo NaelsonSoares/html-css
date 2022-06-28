@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    padding-top: 20px;
+}
+
+p{
+    font-family: sans-serif;
+    font-size: 40px;
+    padding-top: 10px;
+    text-align: center;
+    
+}
+
+.flex-container{
+    max-width: 600px;
+    border: 2px solid black;
+    margin-left: 30px;
+    display: flex; /* alinhamento horizontal*/
+}
+
+.flex-item{
+    width: 150px;
+    height: 150px;
+    line-height: 130px;
+    background-color: aqua;
+    margin: 5px;
+    font-size: 40px;
+    text-align: center;
+}

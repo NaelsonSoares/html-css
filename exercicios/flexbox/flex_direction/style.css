@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    padding-top: 20px;
+}
+
+p{
+    font-family: sans-serif;
+    font-size: 40px;
+    padding-top: 10px;
+    text-align: center;
+    
+}
+
+.flex-container{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+}
+
+.flex-item{
+    width: 70px;
+    height: 70px;
+    line-height: 65px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin: 5px;
+}
+
+.row li{
+    background-color: red; 
+}
+
+.row-reverse li{
+    background-color: indigo;
+}
+.row-reverse{
+    flex-direction: row-reverse;
+}
+
+.column li{
+    background-color: green;
+}
+.column{
+    float: left;
+    flex-direction: column;
+}
+
+.column-reverse li{
+    background-color: blue;
+}
+.column-reverse{
+    flex-direction: column-reverse;
+    float: right;
+}

@@ -1,0 +1,142 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    padding-top: 20px;
+}
+h1{
+    margin-left: 50px;
+}
+p{
+    font-family: sans-serif;
+    font-size: 20px;
+    padding-top: 10px;
+    margin-left: 50px;
+}
+.blue{
+    background-color: rgb(4, 184, 216);
+}
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+.yellow{
+    background-color: yellow;
+}
+.orangen{
+    background-color: orange;
+}
+.flex-item{
+    font-size: 15px;
+    text-align: center;
+    margin: 5px;
+    height: 100%;
+    flex: 1 /* ajustam os itens*/
+}
+
+.item{
+    margin: 70px;
+    padding: 50px;
+    flex: 0; /* ajustam os itens*/
+}
+ .containercentral{
+    border: 2px solid black;
+    display: flex;
+    height: 500px;
+    margin-left: 20px;
+    justify-content: center;
+ }
+
+    /* Alinhamento row*/
+    /* align-items: center - alinhamento no centro*/
+.containeraligncenter{
+    border: 2px solid black;
+    display: flex;
+    max-width: 350px;
+    margin-left: 20px;
+    align-items: center; 
+}
+    /* align-items: stretch - alinhamento padrão*/
+.containeralignstretch{
+    border: 2px solid black;
+    display: flex;
+    max-width: 350px;
+    margin-left: 20px;
+    align-items: stretch; 
+}
+    /* align-items: flex-start - alinhamento no início de cima para baixo*/
+.containeralignflexstart{
+    border: 2px solid black;
+    display: flex;
+    max-width: 350px;
+    margin-left: 20px;
+    align-items: flex-start; 
+}
+    /* align-items: flex-end - alinhamento no final de baixo para cima*/
+.containeralignflexend{
+    border: 2px solid black;
+    display: flex;
+    max-width: 350px;
+    margin-left: 20px;
+    align-items: flex-end; 
+}
+    /* align-items: baseline - alinhamento com base na tipografia ex. item 1 com <br> leva o texto para baixo, considerando uma quebra de linha */
+.containeralignbaseline{
+    border: 2px solid black;
+    display: flex;
+    max-width: 350px;
+    margin-left: 20px;
+    align-items: baseline; 
+}
+
+    /* Alinhamento column*/
+    /* align-items: center - alinhamento no centro*/
+    .containeraligncentercolumn{
+        border: 2px solid black;
+        display: flex;
+        max-width: 350px;
+        margin-left: 20px;
+        align-items: center;
+        flex-direction: column; 
+    }
+        /* align-items: stretch - alinhamento padrão*/
+    .containeralignstretchcolumn{
+        border: 2px solid black;
+        display: flex;
+        max-width: 350px;
+        margin-left: 20px;
+        align-items: stretch;
+        flex-direction: column; 
+    }
+        /* align-items: flex-start - alinhamento no início de cima para baixo*/
+    .containeralignflexstartcolumn{
+        border: 2px solid black;
+        display: flex;
+        max-width: 350px;
+        margin-left: 20px;
+        align-items: flex-start;
+        flex-direction: column; 
+    }
+        /* align-items: flex-end - alinhamento no final de baixo para cima*/
+    .containeralignflexendcolumn{
+        border: 2px solid black;
+        display: flex;
+        max-width: 350px;
+        margin-left: 20px;
+        align-items: flex-end;
+        flex-direction: column; 
+    }
+        /* align-items: baseline - alinhamento com base na tipografia ex. item 1 com <br> leva o texto para baixo, considerando uma quebra de linha */
+    .containeralignbaselinecolumn{
+        border: 2px solid black;
+        display: flex;
+        max-width: 350px;
+        margin-left: 20px;
+        align-items: baseline;
+        flex-direction: column; 
+    }

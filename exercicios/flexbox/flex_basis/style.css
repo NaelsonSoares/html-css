@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    padding-top: 20px;
+}
+h1{
+    text-align: center;
+}
+p{
+    font-family: sans-serif;
+    font-size: 20px;
+    padding-top: 10px;
+    text-align: center;
+}
+.blue{
+    background-color: rgb(4, 184, 216);
+}
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+.yellow{
+    background-color: yellow;
+}
+.orangen{
+    background-color: orange;
+}
+
+/* alinhamneto row*/
+.container{
+    border: 2px solid black;
+    display: flex;
+    max-width: 500px;
+    margin: auto;
+    height: 50px;
+}
+
+.itemflexbasisauto{
+    text-align: center;
+    margin: 5px;
+    padding-top: 10px;
+    flex-basis: auto;
+    flex-grow: 1;
+   
+}
+
+.itemflexbasisauto2{
+    text-align: center;
+    margin: 5px;
+    padding-top: 10px;
+    flex-basis: auto;
+    flex-grow: 5;
+}
+
+.itemflexbasiswidth{
+    text-align: center;
+    margin: 5px;
+    padding-top: 10px;
+    flex-basis: 100px;
+    flex-grow: 0;
+}
+
+.itemflexbasiswidth2{
+    text-align: center;
+    margin: 5px;
+    padding-top: 10px;
+    flex-basis: 100px;
+    flex-grow: 1;
+}
